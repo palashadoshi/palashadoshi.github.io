@@ -3503,19 +3503,19 @@ input, select, textarea {
 
 		}
 
-	#footer > .inner a {
-		border-bottom-color: rgba(255, 255, 255, 0.15);
-	}
-
-		#footer > .inner a:hover {
-			border-bottom-color: transparent;
-		}
-
 	#footer > .inner .menu {
 		font-size: 0.8em;
-		color: rgba(255, 255, 255, 0.15);
+		color: rgba(234, 232, 232);
 	}
 
+	#footer > .inner .menu a {
+		border-bottom-color: rgba(255, 255, 255);
+	}
+
+		#footer > .inner .menu a:hover {
+			border-bottom-color: transparent;
+		}
+	
 	#header + #wrapper + #footer > .inner {
 		margin: 0 auto;
 	}
